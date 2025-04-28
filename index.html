@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<style>
+div{text-align:center;
+    background-image: linear-gradient(aqua,pink);
+    width:500px;
+	height:320px;
+	margin-top:200px;
+    margin-left:500px;
+    }
+
+</style>
+</head>
+<body>
+<div>
+<h2>Basic Information</h2>
+
+<form>
+  
+<label for="name">Name</label>
+<input type="text" name="name" placeholder="Name" required><br><br>
+
+   
+<label for="mobilenumber">Mobile No.</label>
+<input type="text" name="mobile" placeholder="+91XXXXXXXXXX" required><br><br>
+
+
+<label for="email">Email</label>
+<input type="email" name="email"  required><br><br>
+
+   
+<label for="gender">Gender</label>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female<br><br>
+
+
+<label for="education">Education</label>
+<input type="checkbox" name="education" value="10th"> 10th
+<input type="checkbox" name="education" value="12th"> 12th
+<input type="checkbox" name="education" value="Graduation"> Graduation<br><br>
+
+   
+<label for="tea">Do you like Tea ?</label>
+<select name="tea">
+<option value="">--Select--</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br><br>
+
+   
+<input type="submit" value="Submit">
+
+</form>
+</div>
+</body>
+</html>
